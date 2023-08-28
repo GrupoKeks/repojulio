@@ -25,7 +25,6 @@
 .avatarimg {
 	width: 200px;
     height: 200px;
-
 }
 
 .cookies {
@@ -90,11 +89,19 @@
 	text-align: center;
 	display: flex; justify-content: center;
 	color: #351d14;
-	font-family: 'Itim', cursive;
+	font-family: 'DM Serif Text', cursive;
+	margin-bottom: 0px;
 
 }
+
+.KEKS {
+	
+}
+
 .avatares {
-	display: flex; justify-content: space-between;
+	display: flex; 
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .title {
@@ -106,9 +113,10 @@
 	font-size: 44px;
 	text-align: center;
 	display: flex; justify-content: center;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 	color: #351d14;
 	font-family: 'Itim', cursive;
+	background-color: #c99142;
 }
 .img {
 	margin: auto; display: block;
@@ -151,6 +159,23 @@
 	.galle {
 		width: 100%;
 	}
+	#carouselExample {
+		width: 100%;
+	}
+	.xar {width: 100%;}
+
+	.avatar {width: 100%;}
+
+	.infonos {font-size: 12px;}
+
+	.avatarimg {
+		width: 150px;
+		height: 150px;
+	}
+	.title1 {font-size: 44px;}
+	.title2 {font-size: 22px;}
+
+
 }
 
 
@@ -164,7 +189,6 @@
 
 h1{
 	text-align: center;
-	padding-right: 50px;
 	background-color: #a36b2c;
 	color: #351d14;
 	font-weight: 800;
