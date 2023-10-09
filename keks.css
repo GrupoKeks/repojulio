@@ -40,9 +40,11 @@
 
 }
 
-.avatar {
-	
+.container-fluid {
+	height: 100px;
 }
+	
+
 
 .box{
   margin: 50px;
@@ -54,7 +56,7 @@
 
 .xar {
 
-	width: 400px;
+	width: 800px;
 	margin: auto;
 	border: 2px solid #7f4e24;
 }
@@ -94,13 +96,13 @@
 
 }
 
-.KEKS {
-	
+.navbar {
+	background-color: #cc9c6c;
 }
 
 .avatares {
 	display: flex; 
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -127,6 +129,8 @@
 
 }
 
+.navbar{padding: 0 !important; height:100px}
+
 .productos{
 	display: flex;
 	flex-wrap: wrap;
@@ -147,33 +151,58 @@
     height: auto;
 }
 
+.IG {
+	height: 30px;
+	width: auto;
+}
+
 /*inicia responsive*/
 
-@media (width < 768px) {
+@media (width <= 992px) {
+	.logo {
+		margin: 0px;
+		display: block;
+		margin:0 0 10px 0;
+	}
+	.navbar{padding: 0 !important; height:100px}
+
+	.xar {width: 800px}
+}
+
+@media (width <= 768px) {
 	.galle {
 		width: 50%;
 	}
+
+	.xar {width: 600px}
 }
 
-@media (width < 480px) {
+@media (width <= 480px) {
 	.galle {
 		width: 100%;
 	}
 	#carouselExample {
 		width: 100%;
 	}
-	.xar {width: 100%;}
-
-	.avatar {width: 100%;}
+	.xar{
+	width: 90%;
+    height: 90%}
 
 	.infonos {font-size: 12px;}
 
 	.avatarimg {
-		width: 150px;
-		height: 150px;
+		width: 250px;
+		height: 250px;
 	}
-	.title1 {font-size: 44px;}
-	.title2 {font-size: 22px;}
+	.title1 {font-size: 66px;}
+	.title2 {font-size: 44px;}
+
+	.nos1 {font-size: 18px;}
+
+	.nos2 {font-size: 18px;}
+
+	.avatares {display: flex; justify-content: center;
+	}
 
 
 }
