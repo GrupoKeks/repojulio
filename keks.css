@@ -104,6 +104,7 @@
 	display: flex; 
 	justify-content: center;
 	flex-wrap: wrap;
+	size: 20%;
 }
 
 .title {
@@ -143,7 +144,8 @@
 	align-items: center;
 	border: 2px solid #7f4e24;
 	margin-bottom: 25px;
-	width: 40%;
+	width: 30%;
+	background-color: #a36b2c;
 }
 
 .galleimg {
@@ -214,6 +216,8 @@
 	align-items: center;
 	justify-content: center;
 	color: #351d14;
+	font-weight: 800;
+	color: #351d14;
 }
 
 h1{
@@ -222,10 +226,13 @@ h1{
 	color: #351d14;
 	font-weight: 800;
 	font-style: italic;
+	padding-bottom: 5px;
 }
 
 p {
 	color: #351d14;
 	background-color: #c99142;
 	margin-bottom: 25px;
+	padding-right: 88px;
+	padding-left: 50px;
 }
