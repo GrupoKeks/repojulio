@@ -69,7 +69,7 @@
 
 .xar img{
 	width: 300px;
-	height: 400px;
+	height: 100%;
 	object-fit: cover;
 }
 
@@ -148,15 +148,35 @@
 	align-items: center;
 	border: 2px solid #7f4e24;
 	margin-bottom: 25px;
-	width: 30%;
+	width: 20%;
 	background-color: #a36b2c;
 	
 }
 
 .galleimg {
-	width: 100%;
+	width: 150px;
+	object-fit: cover;
     height: auto;
 }
+
+.galleimg1 {
+	width: 150px;
+	object-fit: cover;
+    height: 300px;
+}
+
+.galleimg2 {
+	width: 150px;
+	object-fit: cover;
+    height:275px;
+}
+
+.galleimg3 {
+	width: 150px;
+	object-fit: cover;
+    height: 270px;
+}
+
 
 .IG {
 	height: 30px;
@@ -173,13 +193,25 @@
 	}
 	.navbar{padding: 0 !important; height:100px}
 
-	.xar {width: 90% !important}
+	.xar {
+		width: 90% !important;
+		height: 
+	}
 
 	.texto{
 	padding-right: 0!important;
 		padding-left: 0!important;
 	}
+
+	.fraimg1 {
+	width: 250px !important;
+	height: 300px !important;
 }
+
+
+}
+
+
 
 @media (width <= 768px) {
 	.galle {
@@ -194,7 +226,33 @@
     width: 88% !important;
     }
 
+.galle {
+	width: 45%;
+}
 
+.galleimg {
+	width: 150px;
+	object-fit: cover;
+    height: auto;
+}
+
+.galleimg1 {
+	width: 250px;
+	object-fit: cover;
+    height: 300px;
+}
+
+.galleimg2 {
+	width: 250px;
+	object-fit: cover;
+    height:300px;
+}
+
+.galleimg3 {
+	width: 150px;
+	object-fit: cover;
+    height: 270px;
+}
 }
 
 @media (width <= 480px) {
@@ -212,6 +270,12 @@
 width: 100%;
     }
 
+    .fraimg1 {
+    	width: 300px !important;
+
+    	height: auto !important;
+    }
+
 	.infonos {font-size: 12px;}
 
 	.avatarimg {
@@ -225,14 +289,37 @@ width: 100%;
 
 	.nos2 {font-size: 18px;}
 
-	.avatares {display: flex; justify-content: space-around;
-	}
+	.avatares {display: flex; justify-content: space-around;}
 
     .texto {
-    	padding-left: 2px;
+    	padding-left: 2px !important;
     	padding-right:2px;
     	margin-right: 2px;
     }
+
+.galleimg {
+	width: 150px;
+	object-fit: cover;
+    height: auto;
+}
+
+.galleimg1 {
+	width: 250px;
+	object-fit: cover;
+    height: 300px;
+}
+
+.galleimg2 {
+	width: 250px;
+	object-fit: cover;
+    height:275px;
+}
+
+.galleimg3 {
+	width: 150px;
+	object-fit: cover;
+    height: 270px;
+}
 
 }
 
@@ -375,8 +462,15 @@ ul {
 }
 
 .fraimg {
-    width: 100%;
-    height: auto;
+
+    width: 155px;
+    height: 300px;
+
+}
+
+.fraimg1 {
+   height: 300px;
+    width:  auto;
 }
 
 .fradesc {
